@@ -1,0 +1,23 @@
+.piepagina {
+    background-color: var(--hospital-green);
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    color: white;
+}
+.piepagina img{
+    width: 75px;
+}
+.iconContainer{     //next nos obliga a importar Imagen from 'image/nex'; y con eso se rompe la conexion a los estilos de la img
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    margin-top: 1.5vh;
+    margin-right: 6vw;
+}   
+.datos-personales a {
+    text-decoration: none;
+}
+@media (max-width: 640px) {
+    
+}
