@@ -30,18 +30,18 @@ const MenuMobile = () => {
         </ul>
         <ul>
             <li>
-                <Link href="">Mis pedidos</Link>
+                <Link href="/checkout">My Orders</Link>
             </li>
             <li>
-                <Link href="">Mi cuenta</Link>
+                <Link href="/MyAccount">My Account</Link>
             </li>
         </ul>
         <ul>
             <li>
-                <Link href="/" className="email">correo_ejemplo@gmail.com</Link>
+                <Link href="/MyAccount" className={styles["email"]}>correo_ejemplo@mail.com</Link>
             </li>
             <li>
-                <Link href="/" className="cerrar-sesion">Cerrar Sesion</Link>
+                <Link href="/Login" className={styles["cerrar-sesion"]}>Log out</Link>
             </li>
             </ul>
     </div>

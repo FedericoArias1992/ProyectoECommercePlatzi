@@ -15,16 +15,19 @@
     border-bottom: 1px solid var(--very-light-pink);
 }
 .mobile-menu ul li {
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 .mobile-menu a{
     text-decoration: none;
     color: var(--black);
     font-weight: bold;
 }
-.email {
-    font-size: 12px;
-    font-weight: 300 !important; /*usamos el importar pq por especificidad el mobile-menu a: ya definia el font weight como bold*/
+.mobile-menu ul li .email {
+    font-size: 13px;
+    margin-bottom: 20px;
+    font-weight: 400 !important; /*usamos el importar pq por especificidad el mobile-menu a: ya definia el font weight como bold*/
+    text-decoration: underline;
+    color: var(--hospital-green);
 }
 .mobile-menu ul:nth-child(3){ /*usamos la ultima lista para estilizarla de manera distinta*/
     position: absolute; /*para mandar esa lista al fondo de la pantalla*/
@@ -35,7 +38,7 @@
     font-weight: 300;
 }
 .mobile-menu .cerrar-sesion { /*al usar esta especificidad evitamos usar el important de abajo*/
-    font-size: var(--sm);
+    font-size: var(--lg);
     color: var(--hospital-green);
 }
 /* .cerrar-sesion { */

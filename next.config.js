@@ -7,6 +7,6 @@ const nextConfig = {
 module.exports = {
   reactStrictMode: true,
   images:{
-    domains: ['placeimg.com', 'picsum.photos'],	//esta la url del CDN de donde vienen las imagenes
+    domains: ['placeimg.com', 'picsum.photos','imageio.forbes.com'],	//esta la url del CDN de donde vienen las imagenes
     },  
 }
